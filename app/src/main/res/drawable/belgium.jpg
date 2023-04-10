@@ -1,0 +1,117 @@
+go to
+# air at 6am your time.
+#
+# From Paul Eggert (2003-03-23):
+# We don't know the date of that quote, but we'll guess they
+# started DST on June 3.  Possibly DST was observed other years
+# in Midway, but we have no record of it.
+
+# Nauru
+
+# From Phake Nick (2018-10-31):
+# Currently, the tz database say Nauru use LMT until 1921, and then
+# switched to GMT+11:30 for the next two decades.
+# However, a number of timezone map published in America/Japan back then
+# showed its timezone as GMT+11 per https://wiki.suikawiki.org/n/ナウルの標準時
+# And it would also be nice if the 1921 transition date could be sourced.
+# ...
+# The "Nauru Standard Time Act 1978 Time Change"
+# http://ronlaw.gov.nr/nauru_lpms/files/gazettes/4b23a17d2030150404db7a5fa5872f52.pdf#page=3
+# based on "Nauru Standard Time Act 1978 Time Change"
+# http://www.paclii.org/nr/legis/num_act/nsta1978207/ defined that "Nauru
+# Alternative Time" (GMT+12) should be in effect from 1979 Feb.
+#
+# From Paul Eggert (2018-11-19):
+# The 1921-01-15 introduction of standard time is in Shanks; it is also in
+# "Standard Time Throughout the World", US National Bureau of Standards (1935),
+# page 3, which does not give the UT offset.  In response to a comment by
+# Phake Nick I set the Nauru time of occupation by Japan to
+# 1942-08-29/1945-09-08 by using dates from:
+# https://en.wikipedia.org/wiki/Japanese_occupation_of_Nauru
+
+# Norfolk
+
+# From Alexander Krivenyshev (2015-09-23):
+# Norfolk Island will change ... from +1130 to +1100:
+# https://www.comlaw.gov.au/Details/F2015L01483/Explanatory%20Statement/Text
+# ... at 12.30 am (by legal time in New South Wales) on 4 October 2015.
+# http://www.norfolkisland.gov.nf/nia/MediaRelease/Media%20Release%20Norfolk%20Island%20Standard%20Time%20Change.pdf
+
+# From Paul Eggert (2019-08-28):
+# Transitions before 2015 are from timeanddate.com, which consulted
+# the Norfolk Island Museum and the Australian Bureau of Meteorology's
+# Norfolk Island station, and found no record of Norfolk observing DST
+# other than in 1974/5.  See:
+# https://www.timeanddate.com/time/australia/norfolk-island.html
+# However, disagree with timeanddate about the 1975-03-02 transition;
+# timeanddate has 02:00 but 02:00s corresponds to what the NSW law said
+# (thanks to Michael Deckers).
+
+# Norfolk started observing Australian DST in spring 2019.
+# From Kyle Czech (2019-08-13):
+# https://www.legislation.gov.au/Details/F2018L01702
+# From Michael Deckers (2019-08-14):
+# https://www.legislation.gov.au/Details/F2019C00010
+
+# Palau
+# See commentary for Micronesia.
+
+# Pitcairn
+
+# From Rives McDow (1999-11-08):
+# A Proclamation was signed by the Governor of Pitcairn on the 27th March 1998
+# with regard to Pitcairn Standard Time.  The Proclamation is as follows.
+#
+#	The local time for general purposes in the Islands shall be
+#	Co-ordinated Universal time minus 8 hours and shall be known
+#	as Pitcairn Standard Time.
+#
+# ... I have also seen Pitcairn listed as UTC minus 9 hours in several
+# references, and can only assume that this was an error in interpretation
+# somehow in light of this proclamation.
+
+# From Rives McDow (1999-11-09):
+# The Proclamation regarding Pitcairn time came into effect on 27 April 1998
+# ... at midnight.
+
+# From Howie Phelps (1999-11-10), who talked to a Pitcairner via shortwave:
+# Betty Christian told me yesterday that their local time is the same as
+# Pacific Standard Time. They used to be ½ hour different from us here in
+# Sacramento but it was changed a couple of years ago.
+
+
+# (Western) Samoa and American Samoa
+
+# Howse writes (p 153) that after the 1879 standardization on Antipodean
+# time by the British governor of Fiji, the King of Samoa decided to change
+# "the date in his kingdom from the Antipodean to the American system,
+# ordaining - by a masterpiece of diplomatic flattery - that
+# the Fourth of July should be celebrated twice in that year."
+# This happened in 1892, according to the Evening News (Sydney) of 1892-07-20.
+# https://www.staff.science.uu.nl/~gent0113/idl/idl.htm
+
+# Although Shanks & Pottenger says they both switched to UT -11:30
+# in 1911, and to -11 in 1950. many earlier sources give -11
+# for American Samoa, e.g., the US National Bureau of Standards
+# circular "Standard Time Throughout the World", 1932.
+# Assume American Samoa switched to -11 in 1911, not 1950,
+# and that after 1950 they agreed until (western) Samoa skipped a
+# day in 2011.  Assume also that the Samoas follow the US and New
+# Zealand's "ST"/"DT" style of daylight-saving abbreviations.
+
+
+# Tonga
+
+# From Paul Eggert (1996-01-22):
+# Today's _Wall Street Journal_ (p 1) reports that "Tonga has been plotting
+# to sneak ahead of [New Zealanders] by introducing daylight-saving time."
+# Since Kiribati has moved the Date Line it's not clear what Tonga will do.
+
+# Don Mundell writes in the 1997-02-20 Tonga Chronicle
+# How Tonga became 'The Land where Time Begins':
+# http://www.tongatapu.net.to/tonga/homeland/timebegins.htm
+#
+# Until 1941 Tonga maintained a standard time 50 minutes ahead of NZST
+# 12 hours and 20 minutes ahead of GMT.  When New Zealand adjusted its
+# standard time in 1940s, Tonga had the choice of subtracting from its
+# local t
